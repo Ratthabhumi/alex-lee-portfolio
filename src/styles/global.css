@@ -10,12 +10,13 @@
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --transition-duration: 0.3s;
+  --font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {
   background: var(--black);
   color: white;
-  font-family: 'Arial', sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -48,7 +49,7 @@ button:hover {
 }
 
 input, textarea {
-  background: var(--surface);
+  background: white;
   color: white;
   border: 1px solid var(--primary);
   padding: 0.5rem;
