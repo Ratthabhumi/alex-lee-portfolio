@@ -8,8 +8,8 @@ const About = () => {
         <div className="about-content">
           <div className="bio">
             <p className="lead-text">
-              With over a decade of experience shaping visual identities, 
-              I specialize in translating complex ideas into clean, 
+              With over a decade of experience shaping visual identities,
+              I specialize in translating complex ideas into clean,
               impactful designs that resonate across mediums.
             </p>
             <div className="details-grid">

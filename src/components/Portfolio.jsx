@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState('all');
-  
+
   const projects = [
     {
       id: 1,
@@ -44,8 +44,8 @@ const Portfolio = () => {
 
   const categories = ['all', 'branding', 'digital', 'packaging'];
 
-  const filteredProjects = activeCategory === 'all' 
-    ? projects 
+  const filteredProjects = activeCategory === 'all'
+    ? projects
     : projects.filter(project => project.category === activeCategory);
 
   return (
